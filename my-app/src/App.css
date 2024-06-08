@@ -1,0 +1,56 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.step-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.step-table th, .step-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.step-table th {
+  background-color: #f2f2f2;
+}
+
+.step-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.step-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+input[type="text"], select {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 26px);
+}
